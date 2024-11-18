@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render 1`] = `
+<div>
+  <div
+    class="
+              mx-auto mb-20 mt-36 max-w-screen-sm px-6
+
+              md:mt-52
+
+              sm:px-20
+            "
+  >
+    <h1
+      class="
+              text-4xl font-black text-slate-800
+
+              sm:text-5xl
+            "
+    >
+      Adil EL HARTI
+    </h1>
+    <h2
+      class="
+              text-xl font-normal text-slate-700
+
+              sm:text-2xl
+            "
+    >
+      Full-Stack & DevOps
+    </h2>
+    <h3
+      class="
+              mt-4 max-w-md text-base font-normal text-slate-600
+
+              sm:text-lg
+            "
+    >
+      I develop web apps and focus on making deployments seamless and efficient. 
+      <span
+        class="text-slate-800"
+      >
+        Frontend
+      </span>
+      , 
+      <span
+        class="text-slate-800"
+      >
+        backend
+      </span>
+      , and 
+      <span
+        class="text-slate-800"
+      >
+        cloud infrastructure
+      </span>
+       are all in my toolkit.
+    </h3>
+    <div
+      class="mt-8 flex items-center space-x-2"
+    >
+      <button
+        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 rounded-3xl text-base"
+      >
+        Copy my Email
+      </button>
+      <a
+        class="
+      inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md
+      text-sm font-medium transition-colors
+
+      [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0
+
+      disabled:pointer-events-none disabled:opacity-50
+
+      focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring
+     
+                  text-primary underline-offset-4
+
+                  hover:underline
+                 h-9 px-4 py-2"
+        href="https://www.linkedin.com/in/adil-elharti/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <svg
+          class="tabler-icon tabler-icon-brand-linkedin "
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 11v5"
+          />
+          <path
+            d="M8 8v.01"
+          />
+          <path
+            d="M12 16v-5"
+          />
+          <path
+            d="M16 16v-3a2 2 0 1 0 -4 0"
+          />
+          <path
+            d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"
+          />
+        </svg>
+        Linkedin
+      </a>
+    </div>
+    <section
+      aria-atomic="false"
+      aria-label="Notifications alt+T"
+      aria-live="polite"
+      aria-relevant="additions text"
+      tabindex="-1"
+    />
+  </div>
+</div>
+`;

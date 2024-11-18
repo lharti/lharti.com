@@ -1,22 +1,20 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
+import { Inter } from 'next/font/google'
 import React from 'react'
 import './globals.css'
 
-const geistSans = localFont({
-    src: './fonts/GeistVF.woff',
-    variable: '--font-geist-sans',
-    weight: '100 900',
-})
-const geistMono = localFont({
-    src: './fonts/GeistMonoVF.woff',
-    variable: '--font-geist-mono',
-    weight: '100 900',
+const inter = Inter({
+    subsets: ['latin'],
+    variable: '--font-inter',
 })
 
 export const metadata: Metadata = {
-    title: 'lharti.com',
-    description: 'WIP',
+    title: 'Adil EL HARTI - Full-Stack & DevOps',
+
+    description:
+        'Full-stack and DevOps engineer specializing in frontend, backend, and cloud infrastructure.',
+
+    robots: 'index, follow',
 }
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -24,10 +22,9 @@ const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <html lang="en">
             <body
                 className={`
-                  ${geistSans.variable}
-                  ${geistMono.variable}
+                  ${inter.variable}
 
-                  antialiased
+                  font-sans antialiased
                 `}
             >
                 {children}
