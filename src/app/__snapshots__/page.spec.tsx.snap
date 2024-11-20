@@ -60,7 +60,7 @@ exports[`<Home /> should render 1`] = `
       class="mt-8 flex items-center space-x-2"
     >
       <button
-        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 rounded-3xl text-base"
+        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 rounded-3xl"
       >
         Copy my Email
       </button>
@@ -113,6 +113,28 @@ exports[`<Home /> should render 1`] = `
         </svg>
         Linkedin
       </a>
+    </div>
+    <div
+      class="mt-20"
+    >
+      <h3
+        class="text-base font-medium italic text-slate-500"
+      >
+        Check out my latest public project 
+        <a
+          class="
+                          not-italic text-blue-500 underline
+
+                          hover:text-blue-700
+                        "
+          href="https://github.com/lharti/jsonthing"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Jsonthing
+        </a>
+        .
+      </h3>
     </div>
     <section
       aria-atomic="false"
