@@ -25,10 +25,7 @@ export const HomePage: React.FC = ({}) => {
             <ProfileSummary />
 
             <div className="mt-8 flex items-center space-x-2">
-                <CopyEmailBtn
-                    className="rounded-3xl text-base"
-                    email="hey@lharti.com"
-                />
+                <CopyEmailBtn className="rounded-3xl" email="hey@lharti.com" />
 
                 <a
                     href="https://www.linkedin.com/in/adil-elharti/"
@@ -41,6 +38,24 @@ export const HomePage: React.FC = ({}) => {
                 </a>
             </div>
 
+            <div className="mt-20">
+                <h3 className="text-base font-medium italic text-slate-500">
+                    {'Check out my latest public project '}
+                    <a
+                        href="https://github.com/lharti/jsonthing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`
+                          not-italic text-blue-500 underline
+
+                          hover:text-blue-700
+                        `}
+                    >
+                        {'Jsonthing'}
+                    </a>
+                    {'.'}
+                </h3>
+            </div>
             <Toaster richColors position="top-center" />
         </div>
     )
